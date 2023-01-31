@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/tdkomfort/static/css/main.39abf22d.css",
+    "main.js": "/tdkomfort/static/js/main.ea31ff70.js",
+    "static/js/787.28cb0dcd.chunk.js": "/tdkomfort/static/js/787.28cb0dcd.chunk.js",
+    "static/media/almi.png": "/tdkomfort/static/media/almi.138a691f4dd2aa74f757.png",
+    "static/media/IMG_3013_.jpg": "/tdkomfort/static/media/IMG_3013_.9a31ff510798bcb35f88.jpg",
+    "static/media/tofa.png": "/tdkomfort/static/media/tofa.50fb151fc8f3c7403131.png",
+    "static/media/niota.png": "/tdkomfort/static/media/niota.253e1fc85ee90d424530.png",
+    "static/media/brado.png": "/tdkomfort/static/media/brado.781b30a19ce1888d84aa.png",
+    "static/media/marko.png": "/tdkomfort/static/media/marko.ab3f5d6581d3035a6f9a.png",
+    "static/media/logo.svg": "/tdkomfort/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/tdkomfort/index.html",
+    "main.39abf22d.css.map": "/tdkomfort/static/css/main.39abf22d.css.map",
+    "main.ea31ff70.js.map": "/tdkomfort/static/js/main.ea31ff70.js.map",
+    "787.28cb0dcd.chunk.js.map": "/tdkomfort/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.39abf22d.css",
+    "static/js/main.ea31ff70.js"
+  ]
+}
