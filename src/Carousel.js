@@ -13,13 +13,16 @@ function Carousel() {
       bullets = {false}>
         
         <div>
-          <img src={require("./IMG_3013_.jpg")} />{" "}
+          <img src={require("./Pictures/item4.jpg")} />{" "}
         </div>
         <div>
-          <img src={require("./IMG_3013_.jpg")} />{" "}
+        <img src={require("./Pictures/item1.jpg")} />{" "}
         </div>
         <div>
-          <img src={require("./IMG_3013_.jpg")} />{" "}
+        <img src={require("./Pictures/item2.jpg")} />{" "}
+        </div>
+        <div>
+        <img src={require("./Pictures/item3.jpg")} />{" "}
         </div>
         {/* <div data-src="/path/to/image-1.png" />
         <div data-src="/path/to/image-2.jpg" /> */}

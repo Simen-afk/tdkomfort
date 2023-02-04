@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import "./Carousel.js";
 import Carousel from "./Carousel.js";
@@ -8,24 +7,10 @@ import Card from "./Card";
 function App() {
   return (
     <div className="App">
-      {/* <nav className="navbar" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-          <button className="button">
-            <h3>О нас</h3>
-          </button>
-        </div>
-      </nav> */}
-
-      {/* <h1 className="GlavniyText">Торговый Дом Комфорт</h1>
-      <div className="block">Чето там о компании мы лидер тыры пыры</div>
-      <div className="block">Чето там о компании мы лидер тыры пыры</div>
-      <div className="block">Чето там о компании мы лидер тыры пыры</div>
-      <div className="title textSleva">Новинки</div> */}
       <Navbar></Navbar>
       <div class="container">
         <h1>Торговый дом Комфорт</h1>
-        <p>Красивые слова о компании.</p>
-        <p>Еще больше красивых слов но не много максимум на строчку</p>
+        <h2>Обувь оптом</h2>
       </div>
 
       <div className="carouselCentre">
@@ -35,32 +20,15 @@ function App() {
       <div>
         <h2 id="about">О нас</h2>
         <div className="columns">
-        <div className="column is-1"></div>
-        <div className="column ">
-            <article class="message is-dark">
-              <div class="message-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
-                <strong>Pellentesque risus mi</strong>, tempus quis placerat ut,
-                porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla.
-                Nullam gravida purus diam, et dictum <a>felis venenatis</a>{" "}
-                efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus.
-                Donec sodales, arcu et sollicitudin porttitor, tortor urna
-                tempor ligula, id porttitor mi magna a neque. Donec dui urna,
-                vehicula et sem eget, facilisis sodales sem.
-              </div>
-            </article>
-          </div>
+          <div className="column is-1"></div>
           <div className="column ">
             <article class="message is-dark">
               <div class="message-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
-                <strong>Pellentesque risus mi</strong>, tempus quis placerat ut,
-                porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla.
-                Nullam gravida purus diam, et dictum <a>felis venenatis</a>{" "}
-                efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus.
-                Donec sodales, arcu et sollicitudin porttitor, tortor urna
-                tempor ligula, id porttitor mi magna a neque. Donec dui urna,
-                vehicula et sem eget, facilisis sodales sem.
+                Наша компания занимается продажей обуви оптом производителей
+                России и Белоруссии со склада в г. Санкт- Петербурге. В продаже
+                модельный ряд обуви от "эконом-класса" до престижной обуви
+                средне- высокого сегмента. Наша компания старается создать
+                исключительно комфортные условия для работы с покупателями.
               </div>
             </article>
           </div>
@@ -71,24 +39,24 @@ function App() {
         <h2 id="partners">Партнеры</h2>
         <div className="columns">
           <div className="column">
-            <img src={require("./riconte.png")} />
+            <img src={require("./Pictures/riconte.png")} />
           </div>
           <div className="column is-half">
-            <img src={require("./marko.png")} />
+            <img src={require("./Pictures/marko.png")} />
           </div>
           <div className="column">
-            <img src={require("./tofa.png")} />
+            <img src={require("./Pictures/tofa.png")} />
           </div>
           <div className="column">
-            <img src={require("./almi.png")} />
+            <img src={require("./Pictures/almi.png")} />
           </div>
         </div>
         <div className="columns">
           <div className="column">
-            <img src={require("./niota.png")} />
+            <img src={require("./Pictures/niota.png")} />
           </div>
           <div className="column">
-            <img src={require("./brado.png")} />
+            <img src={require("./Pictures/brado.png")} />
           </div>
         </div>
       </div>
@@ -98,14 +66,9 @@ function App() {
           <div className="column ">
             <article class="message is-dark">
               <div class="message-body">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.{" "}
-                <strong>Pellentesque risus mi</strong>, tempus quis placerat ut,
-                porta nec nulla. Vestibulum rhoncus ac ex sit amet fringilla.
-                Nullam gravida purus diam, et dictum <a>felis venenatis</a>{" "}
-                efficitur. Aenean ac <em>eleifend lacus</em>, in mollis lectus.
-                Donec sodales, arcu et sollicitudin porttitor, tortor urna
-                tempor ligula, id porttitor mi magna a neque. Donec dui urna,
-                vehicula et sem eget, facilisis sodales sem.
+                Адрес: г. Санкт- Петербург ул. Розенштейна, дом 21,
+                офис 219. Телефоны: 8( 812) 3136638, 8911-240-69-13,
+                8912-240-68-54.
               </div>
             </article>
           </div>
